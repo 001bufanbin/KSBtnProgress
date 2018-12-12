@@ -11,7 +11,7 @@
 static const double defaultDuration = 1.0;
 static NSString * const kProgressAnimation = @"kProgressAnimation";
 
-@interface UIButtonLongPress ()
+@interface UIButtonLongPress ()<CAAnimationDelegate>
 
 @property (nonatomic, strong)CAShapeLayer *shapeLayer;
 
